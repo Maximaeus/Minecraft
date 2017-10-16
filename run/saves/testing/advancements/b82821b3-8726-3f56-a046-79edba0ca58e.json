@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-10-16 00:32:35 -0400",
+      "beaches": "2017-10-16 00:27:07 -0400"
+    },
+    "done": false
+  }
+}

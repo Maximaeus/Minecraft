@@ -1,5 +1,6 @@
 package edu.gatech.jmurphy61.presentation;
 
+import edu.gatech.jmurphy61.presentation.init.ModItems;
 import edu.gatech.jmurphy61.presentation.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -18,12 +19,13 @@ public class Presentation {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-
+        ModItems.init();
+        ModItems.register();
     }
 
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event) {
-
+        proxy.init();
     }
 
     @Mod.EventHandler

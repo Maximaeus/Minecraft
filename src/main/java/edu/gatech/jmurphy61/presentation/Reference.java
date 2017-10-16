@@ -10,4 +10,26 @@ public class Reference {
     // Proxies
     public static final String CLIENT_PROXY_CLASS = "edu.gatech.jmurphy61.presentation.proxy.ClientProxy";
     public static final String SERVER_PROXY_CLASS = "edu.gatech.jmurphy61.presentation.proxy.ServerProxy";
+
+    //Items
+    public enum PresentationItems {
+        SCREEN("screen", "ItemScreen");
+
+        private String unlocalizedName;
+        private String registryName;
+
+        PresentationItems(String unlocalizedName, String registryName) {
+            this.unlocalizedName = unlocalizedName;
+            this.registryName = registryName;
+        }
+
+        public String getUnlocalizedName() {
+            return unlocalizedName;
+        }
+
+        public String getRegistryName() {
+            return registryName;
+        }
+    }
+
 }
