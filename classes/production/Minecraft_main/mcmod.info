@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gjpm",
+  "name": "Presentation Mod",
+  "description": "Slideshows in Minecraft!",
+  "version": "0.1",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jmurphy61"],
+  "credits": "Loremaster, for teaching me the ways.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

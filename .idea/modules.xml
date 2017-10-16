@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Minecraft.iml" filepath="$PROJECT_DIR$/Minecraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft_api.iml" group="Minecraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft_main.iml" group="Minecraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minecraft_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Minecraft_test.iml" group="Minecraft" />
+    </modules>
+  </component>
+</project>
